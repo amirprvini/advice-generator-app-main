@@ -1,0 +1,95 @@
+*{
+    margin : 0 ;
+    padding: 0 ;
+    box-sizing:  border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:hsl(218, 23%, 16%);
+}
+
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+
+    width: 25rem;
+    height: 17rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem .5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+
+p.title {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+
+}
+
+div.advice-text{
+    display: flex;
+    align-items: flex-start;
+    height: 60%;
+    width: 75%;
+    padding-top: 2rem;
+}
+
+div.advice-text p,
+div.advice-text span {
+    color : white
+    
+}
+
+.middle span.equal{
+   
+    font-weight: bold;
+    display: block;
+    
+}
+
+
+.middle span.equal:before,
+.middle span.equal:after {
+
+    background-color: rgba(255, 255, 255, 0.164);
+    content: "";
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 8rem;
+    height: .9px;
+
+}
+
+
+
+
+.middle{
+    margin-bottom: .5rem;
+}
+
+
+a.button{
+    background-color: hsl(150, 100%, 66%);
+    padding: .8rem 1rem;
+    border-radius: 2rem;
+    transition: all .5s;
+    position: absolute;
+    bottom: -1rem;
+
+    
+}
+
+
+a.button:hover{
+    background-color: white;
+}
